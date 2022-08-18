@@ -12,7 +12,6 @@ CREATE TABLE IF NOT exists musician (
 CREATE TABLE IF NOT exists collection (
 	collection_id SERIAL PRIMARY KEY,
 	collection_name TEXT UNIQUE,
---	musician_name SERIAL references musician(musician_id),
 	release_year INTEGER
 );
 

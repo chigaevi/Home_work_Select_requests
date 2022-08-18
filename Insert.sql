@@ -16,7 +16,6 @@ values ('регги');
 insert into genre(genre_name)
 values ('альтернативный рок');
 	
--- select * from genre
 
 -- Добавляем исполнителей
 
